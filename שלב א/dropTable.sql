@@ -1,0 +1,9 @@
+DROP TABLE Account_manager;
+DROP TABLE Account_of;
+DROP TABLE Transaction;
+DROP TABLE Credit_Number;
+DROP TABLE Account;
+DROP TABLE Banker;
+DROP TABLE Employee;
+DROP TABLE Bank;
+DROP TABLE Person;
