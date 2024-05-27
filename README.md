@@ -1,9 +1,10 @@
 # DBProject_215204348_215702473
 Project in databases, building a bank database
 ## מגישים: אביעד פרידמן ויעקב ידידיה בן שאול
-# Deposits Department - Bank:
-The Deposits Department is responsible for managing all aspects related to deposit accounts within the bank.
-This department therefore must know about all the depost, the accounts and banks they are in, the clients of those deposits and the workers who work on them.
+# Checking Accounts Department - Bank:
+We are the managers of the checking accounts department.
+ The department is responsible for all bank checking accounts.
+ This department oversees the management of checking accounts for the customers.  Including account opening, customer maintenance and service, recording customer expenses, customer income, account balance, interest, credit, etc.
 # Entity-Relationship Diagram (ERD)
 ![image](https://github.com/yybs9876/DBProject_215204348_215702473/blob/main/%D7%A9%D7%9C%D7%91%20%D7%90/erd.jpg)
 
