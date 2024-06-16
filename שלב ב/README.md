@@ -3,12 +3,12 @@
 ### Description
 
 ### Running + Result
-![image](שלב ב/דוח/תמונות לדוח/selectQ1.jpeg)
+![image](https://github.com/yybs9876/DBProject_215204348_215702473/blob/0a0ccefa723b98a278920bbeebf89b59f692ea49/%D7%A9%D7%9C%D7%91%20%D7%91/%D7%93%D7%95%D7%97/%D7%AA%D7%9E%D7%95%D7%A0%D7%95%D7%AA%20%D7%9C%D7%93%D7%95%D7%97/selectQ1.jpeg)
 ## Query 2
 ### Description
 
 ### Running + Result
-![image](שלב ב/דוח/תמונות לדוח/selectQ2.jpeg)
+![image](https://github.com/yybs9876/DBProject_215204348_215702473/blob/246d4773cb84443d5beecaf9510caafb129817de/%D7%A9%D7%9C%D7%91%20%D7%91/%D7%93%D7%95%D7%97/%D7%AA%D7%9E%D7%95%D7%A0%D7%95%D7%AA%20%D7%9C%D7%93%D7%95%D7%97/selectQ2.jpeg)
 ## Query 3
 ### Description
 
