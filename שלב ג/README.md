@@ -1,40 +1,65 @@
 ### הערה:
-כל הדוגמאות הרצה הם מהתכניות הראשיות.
+מגישים - אביעד פרידמן ויעקב ידידיה בן שאול.
+כל הדוגמאות הרצה הם מהתכניות הראשיות, משילוב של פונקציה ופרוצדורה.
 ## Func1:
 ### תיאור מילולי:
 פונקציה שמחזירה את החשבון עם היתרה הכי נמוכה בבנק מסוים. (החשבון הכי פחות מועדף)
 ### הקוד:
 בתיקייה codes, הפונקציה getAccountWithLessMoney.
+## Proc1:
+### תיאור מילולי:
+פרוצדורה שמעבירה חשבון נתון מבנק מסוים לבנק אחר.
+### הקוד:
+בתיקייה codes, הפרוצדורה moveAccount.
 ### ההרצה:
-![image](https://github.com/yosef147yosef/Mini-project-in-databases-Yosef-Halevi-Eliyahu-Shulman/assets/126463473/1179e1a1-c0af-438a-baf5-95272f15533e)
+![image](https://github.com/yybs9876/DBProject_215204348_215702473/blob/d063757d6497dd96c9c44f1fd94c75d585354f79/%D7%A9%D7%9C%D7%91%20%D7%92/%D7%AA%D7%9E%D7%95%D7%A0%D7%95%D7%AA/%D7%94%D7%97%D7%A9%D7%91%D7%95%D7%9F%20%D7%94%D7%90%D7%97%D7%A8%D7%95%D7%9F%20%D7%91%D7%91%D7%A0%D7%A7%20%D7%9E%D7%A1%D7%95%D7%99%D7%9D.jpeg)
+החשבון האחרון בבנק
+![image](https://github.com/yybs9876/DBProject_215204348_215702473/blob/d063757d6497dd96c9c44f1fd94c75d585354f79/%D7%A9%D7%9C%D7%91%20%D7%92/%D7%AA%D7%9E%D7%95%D7%A0%D7%95%D7%AA/%D7%94%D7%97%D7%A9%D7%91%D7%95%D7%9F%20%D7%A2%D7%9D%20%D7%94%D7%9B%D7%99%20%D7%A7%D7%A6%D7%AA%20%D7%9B%D7%A1%D7%A3%20%D7%91%D7%91%D7%A0%D7%A7%20%D7%9E%D7%A1%D7%95%D7%99%D7%9D.jpeg)
+החשבון עם הערך הכי נמוך בבנק מסוים (מתקבל מהפונקציה)
+![image](https://github.com/yybs9876/DBProject_215204348_215702473/blob/d063757d6497dd96c9c44f1fd94c75d585354f79/%D7%A9%D7%9C%D7%91%20%D7%92/%D7%AA%D7%9E%D7%95%D7%A0%D7%95%D7%AA/%D7%90%D7%97%D7%A8%D7%99%20%D7%94%D7%A2%D7%91%D7%A8%D7%AA%20%D7%97%D7%A9%D7%91%D7%95%D7%9F.jpeg)
+החשבון האחרון בבנק עכשיו, אחרי ביצוע הפרוצדורה.
 
-קל לראות שהתכנית אכן מבצעת את מה שאמורה לבצע
+קל לראות שהתכנית אכן מבצעת את מה שאמורה לבצע. הוספנו גם חריגות, לתפיסת מקרים לא תקינים:
+![image](https://github.com/yybs9876/DBProject_215204348_215702473/blob/d063757d6497dd96c9c44f1fd94c75d585354f79/%D7%A9%D7%9C%D7%91%20%D7%92/%D7%AA%D7%9E%D7%95%D7%A0%D7%95%D7%AA/%D7%91%D7%A0%D7%A7%20%D7%99%D7%A2%D7%93%20%D7%9C%D7%90%20%D7%A7%D7%99%D7%99%D7%9D.jpeg)
+בנק יעד לא קיים
+![image](https://github.com/yybs9876/DBProject_215204348_215702473/blob/d063757d6497dd96c9c44f1fd94c75d585354f79/%D7%A9%D7%9C%D7%91%20%D7%92/%D7%AA%D7%9E%D7%95%D7%A0%D7%95%D7%AA/%D7%91%D7%A0%D7%A7%20%D7%9C%D7%90%20%D7%A7%D7%99%D7%99%D7%9D.jpeg)
+הבנק בו אנחנו מחפשים את החשבון עם הכי קצת כסף לא קיים
+![image](https://github.com/yybs9876/DBProject_215204348_215702473/blob/d063757d6497dd96c9c44f1fd94c75d585354f79/%D7%A9%D7%9C%D7%91%20%D7%92/%D7%AA%D7%9E%D7%95%D7%A0%D7%95%D7%AA/%D7%94%D7%A2%D7%91%D7%A8%D7%AA%20%D7%97%D7%A9%D7%91%D7%95%D7%9F%20%D7%9C%D7%90%20%D7%A7%D7%99%D7%99%D7%9D.jpeg)
+כשמנסים להעביר חשבון לא קיים
+
 
 ## Func2:
 ### תיאור מילולי:
-הפונקציה מחזירה את הבנק עם הת.ז. הכי גדולה שמתחילה באות הנתונה
+פונקציה שיוצרת עסקה חדשה ומחזירה את ID שלה.
 ### הקוד:
-![image](https://github.com/yosef147yosef/Mini-project-in-databases-Yosef-Halevi-Eliyahu-Shulman/assets/126463473/a9461440-1948-4985-b695-20188ff8a29c)
-### ההרצה:
-![image](https://github.com/yosef147yosef/Mini-project-in-databases-Yosef-Halevi-Eliyahu-Shulman/assets/126463473/012ea0c6-b516-4e4c-b1c2-bf4e92ad860e)
-![image](https://github.com/yosef147yosef/Mini-project-in-databases-Yosef-Halevi-Eliyahu-Shulman/assets/126463473/3d9eca69-cf28-4291-a93f-a033c8888fb1)
-
-כפי שניתן לראות התכנית אכן מצאה 9926 שזה הת.ז. הכי גדולה של בנק שמתחיל באות H
+בתיקייה codes, הפונקציה createTransaction.
 ## Proc1:
 ### תיאור מילולי:
-מכניס עובד בשם Andy עם הת.ז. הנתונה לטבלת העובדים. במקרה והת.ז. היא NULL או לא ייחודית הוא ישים את Andy בטבלה עם ת.ז. מינימלית אפשרית.
+פרוצדורה שמקבלת ID של עסקה, ומבצעת אותה. (מעבירה את הכסף בין החשבונות)
 ### הקוד:
-![image](https://github.com/yosef147yosef/Mini-project-in-databases-Yosef-Halevi-Eliyahu-Shulman/assets/126463473/6af819e3-b5b4-4e8f-85e8-3e9c2a5a31fd)
+בתיקייה codes, הפרוצדורה performTransaction.
 ### ההרצה:
-![image](https://github.com/yosef147yosef/Mini-project-in-databases-Yosef-Halevi-Eliyahu-Shulman/assets/126463473/f7706531-93f0-4f5e-aa6f-56537674a7cb)
+![image](https://github.com/yybs9876/DBProject_215204348_215702473/blob/d063757d6497dd96c9c44f1fd94c75d585354f79/%D7%A9%D7%9C%D7%91%20%D7%92/%D7%AA%D7%9E%D7%95%D7%A0%D7%95%D7%AA/%D7%9C%D7%A4%D7%A0%D7%99%20%D7%91%D7%99%D7%A6%D7%95%D7%A2%20%D7%A2%D7%A1%D7%A7%D7%94%20%D7%97%D7%93%D7%A9%D7%94.jpeg)
+לפני יצירת עסקה חדשה
+![image](https://github.com/yybs9876/DBProject_215204348_215702473/blob/d063757d6497dd96c9c44f1fd94c75d585354f79/%D7%A9%D7%9C%D7%91%20%D7%92/%D7%AA%D7%9E%D7%95%D7%A0%D7%95%D7%AA/%D7%99%D7%A6%D7%99%D7%A8%D7%AA%20%D7%A2%D7%A1%D7%A7%D7%94%20%D7%97%D7%93%D7%A9%D7%94.jpeg)
+יצירת עסקה חדשה
+![image](https://github.com/yybs9876/DBProject_215204348_215702473/blob/d063757d6497dd96c9c44f1fd94c75d585354f79/%D7%A9%D7%9C%D7%91%20%D7%92/%D7%AA%D7%9E%D7%95%D7%A0%D7%95%D7%AA/%D7%99%D7%AA%D7%A8%D7%AA%20%D7%97%D7%A9%D7%91%D7%95%D7%9F%20%D7%9C%D7%A4%D7%A0%D7%99%20%D7%94%D7%A2%D7%91%D7%A8%D7%94.jpeg)
+היתרה של החשבון המעביר לפני העסקה
+![image](https://github.com/yybs9876/DBProject_215204348_215702473/blob/d063757d6497dd96c9c44f1fd94c75d585354f79/%D7%A9%D7%9C%D7%91%20%D7%92/%D7%AA%D7%9E%D7%95%D7%A0%D7%95%D7%AA/%D7%99%D7%AA%D7%A8%D7%AA%20%D7%97%D7%A9%D7%91%D7%95%D7%9F%20%D7%9C%D7%90%D7%97%D7%A8%20%D7%94%D7%A2%D7%91%D7%A8%D7%94.jpeg)
+היתרה של החשבון המעביר לאחר העסקה
+![image](https://github.com/yybs9876/DBProject_215204348_215702473/blob/d063757d6497dd96c9c44f1fd94c75d585354f79/%D7%A9%D7%9C%D7%91%20%D7%92/%D7%AA%D7%9E%D7%95%D7%A0%D7%95%D7%AA/%D7%99%D7%AA%D7%A8%D7%AA%20%D7%97%D7%A9%D7%91%D7%95%D7%9F%202%20%D7%9C%D7%A4%D7%A0%D7%99%20%D7%94%D7%A2%D7%91%D7%A8%D7%94.jpeg)
+היתרה של החשבון המקבל לפני העסקה
+![image](https://github.com/yybs9876/DBProject_215204348_215702473/blob/d063757d6497dd96c9c44f1fd94c75d585354f79/%D7%A9%D7%9C%D7%91%20%D7%92/%D7%AA%D7%9E%D7%95%D7%A0%D7%95%D7%AA/%D7%99%D7%AA%D7%A8%D7%AA%20%D7%97%D7%A9%D7%91%D7%95%D7%9F%202%20%D7%9C%D7%90%D7%97%D7%A8%20%D7%94%D7%A2%D7%91%D7%A8%D7%94.jpeg)
+היתרה של החשבון המקבל לאחר העסקה
 
-כפי שניתן לראות התכנית הכניסה Andy עם ת.ז. של 17 כיון שלא היתה שום בעיה, אבל לת.ז. של 5 שיוצר התנגשות היא בחרה במקום את הת.ז. המינימלי הפנוי שזה 1.
-## Proc2:
-### תיאור מילולי:
-מדפיס את כל הרשומות מטבלת Interest_Rate שעבורם ערך הInterest קטן מהערך הנתון
-### הקוד:
-![image](https://github.com/yosef147yosef/Mini-project-in-databases-Yosef-Halevi-Eliyahu-Shulman/assets/126463473/17cf46a8-5eaf-46f2-9453-ac01eb90e537)
-### ההרצה:
-![image](https://github.com/yosef147yosef/Mini-project-in-databases-Yosef-Halevi-Eliyahu-Shulman/assets/126463473/a615e6ce-e927-4afe-926c-e776f74fda76)
-
-כפי שניתן לראות כל הרשומות שנבחרו יש להם ערך Interest קטן מ1.
+קל לראות שהתכנית אכן מבצעת את מה שאמורה לבצע. הוספנו גם חריגות, לתפיסת מקרים לא תקינים:
+![image](https://github.com/yybs9876/DBProject_215204348_215702473/blob/d063757d6497dd96c9c44f1fd94c75d585354f79/%D7%A9%D7%9C%D7%91%20%D7%92/%D7%AA%D7%9E%D7%95%D7%A0%D7%95%D7%AA/%D7%94%D7%A2%D7%91%D7%A8%D7%94%20%D7%9C%D7%90%20%D7%A7%D7%99%D7%99%D7%9E%D7%AA.jpeg)
+ההעברה לא קיימת. (לא ניתן לבצע)
+![image](https://github.com/yybs9876/DBProject_215204348_215702473/blob/d063757d6497dd96c9c44f1fd94c75d585354f79/%D7%A9%D7%9C%D7%91%20%D7%92/%D7%AA%D7%9E%D7%95%D7%A0%D7%95%D7%AA/%D7%97%D7%A1%D7%A8%20%D7%9B%D7%A1%D7%A3%20%D7%9C%D7%9E%D7%A7%D7%95%D7%A8.jpeg)
+חסר כסף למקור. (לא ניתן לבצע העברה)
+![image](https://github.com/yybs9876/DBProject_215204348_215702473/blob/d063757d6497dd96c9c44f1fd94c75d585354f79/%D7%A9%D7%9C%D7%91%20%D7%92/%D7%AA%D7%9E%D7%95%D7%A0%D7%95%D7%AA/%D7%97%D7%A9%D7%91%D7%95%D7%9F%20%D7%99%D7%A2%D7%93%20%D7%9C%D7%90%20%D7%A7%D7%99%D7%99%D7%9D.jpeg)
+החשבון המקבל לא קיים.
+![image](https://github.com/yybs9876/DBProject_215204348_215702473/blob/d063757d6497dd96c9c44f1fd94c75d585354f79/%D7%A9%D7%9C%D7%91%20%D7%92/%D7%AA%D7%9E%D7%95%D7%A0%D7%95%D7%AA/%D7%97%D7%A9%D7%91%D7%95%D7%9F%20%D7%9E%D7%A7%D7%95%D7%A8%20%D7%9C%D7%90%20%D7%A7%D7%99%D7%99%D7%9D.jpeg)
+החשבון המעביר לא קיים.
+![image](https://github.com/yybs9876/DBProject_215204348_215702473/blob/d063757d6497dd96c9c44f1fd94c75d585354f79/%D7%A9%D7%9C%D7%91%20%D7%92/%D7%AA%D7%9E%D7%95%D7%A0%D7%95%D7%AA/%D7%A1%D7%9B%D7%95%D7%9D%20%D7%94%D7%A2%D7%91%D7%A8%D7%94%20%D7%A9%D7%9C%D7%99%D7%9C%D7%99.jpeg)
+הסכום המועבר שלילי.
